@@ -1,12 +1,28 @@
-# React + Vite
+EcoAventureiros 🌱
+EcoAventureiros é um site educativo desenvolvido em React e Tailwind CSS, criado para ensinar crianças e jovens sobre sustentabilidade de forma leve, divertida e interativa.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias usadas
+React
 
-Currently, two official plugins are available:
+React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Sobre o projeto
+O projeto EcoAventureiros oferece:
+
+Jogos educativos sobre sustentabilidade
+
+Blog com dicas e curiosidades
+
+Galeria de artes criadas por usuários
+
+Conteúdos sobre preservação ambiental e práticas ecológicas
+
+O objetivo é educar enquanto diverte, inspirando ações sustentáveis desde cedo!
+
+🔧 Status
+Em desenvolvimento 🚧
+Funcionalidades e páginas estão sendo implementadas e aprimoradas continuamente.
