@@ -1,20 +1,20 @@
-import { Link } from "react-router-dom";
+import Card from "../components/Card";
 
 export default function Jogos() {
   const games = [
     {
       title: "Jogo da Ecomemória",
-      description:
-        "Treine sua memória enquanto aprende sobre sustentabilidade! Encontre os pares de cartas e descubra dicas sobre como cuidar do planeta. Pronto para o desafio?",
+      description: "Treine sua memória enquanto aprende sobre sustentabilidade!",
       image: "/images/banner-jogos1.png",
       link: "/jogos/jogo-memoria",
+      buttonText: "JOGUE AGORA!",
     },
     {
       title: "Aventura Sustentável",
-      description:
-        "Entre nessa jornada e ajude a salvar o planeta! Responda ao quiz e descubra como suas escolhas podem fazer a diferença no mundo. Prepare-se para a missão e divirta-se enquanto aprende!",
+      description: "Entre nessa jornada e ajude a salvar o planeta!",
       image: "/images/banner-jogos2.png",
       link: "/jogos/quiz",
+      buttonText: "JOGUE AGORA!",
     },
   ];
 
@@ -25,29 +25,15 @@ export default function Jogos() {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {games.map((game, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
-          >
-            <img
-              src={game.image}
-              alt={game.title}
-              className="w-full h-48 sm:h-56 md:h-72 object-cover"
-            />
-            <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-xl font-semibold text-eco-verde-escuro mb-2">
-                {game.title}
-              </h3>
-              <p className="text-gray-700 flex-grow">{game.description}</p>
-              <Link
-                to={game.link}
-                className="mt-4 bg-eco-verde text-white text-center py-2 rounded hover:bg-eco-verde-escuro"
-              >
-                JOGUE AGORA!
-              </Link>
-            </div>
-          </div>
+        {games.map((game) => (
+          <Card
+            key={game.title}
+            title={game.title}
+            description={game.description}
+            image={game.image}
+            link={game.link}
+            buttonText={game.buttonText}
+          />
         ))}
       </div>
     </section>

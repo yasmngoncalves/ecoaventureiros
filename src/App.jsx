@@ -9,6 +9,7 @@ import Artigo3 from "./pages/blog/Artigo3";
 import Galeria from "./pages/Galeria";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
+import GameMemory from "./pages/games/MemoryGame";
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/jogos" element={<Layout><Jogos /></Layout>} />
+        <Route path="/jogos/jogo-memoria" element={<Layout><GameMemory /></Layout>} />
         <Route path="/blog" element={<Layout><Blog /></Layout>} />
         <Route path="/blog/reciclar-e-transformar-materiais" element={<Layout><Artigo1 /></Layout>} />
         <Route path="/blog/economizar-agua-no-dia-a-dia" element={<Layout><Artigo2 /></Layout>} />
