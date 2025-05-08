@@ -1,28 +1,71 @@
-EcoAventureiros 🌱
-EcoAventureiros é um site educativo desenvolvido em React e Tailwind CSS, criado para ensinar crianças e jovens sobre sustentabilidade de forma leve, divertida e interativa.
+# 🌱 EcoAventureiros
 
-🚀 Tecnologias usadas
-React
+**Aprender é a maior aventura de todas.**
 
-React Router
+EcoAventureiros é uma plataforma educativa gamificada feita para ajudar professores e crianças a tornarem o aprendizado mais divertido. Através de jogos, desafios e conteúdos interativos, o projeto oferece uma forma leve e envolvente de aprender dentro e fora da sala de aula.
 
-Tailwind CSS
+---
 
-Vite
+## 🔗 Acesse o projeto online
 
-📚 Sobre o projeto
-O projeto EcoAventureiros oferece:
+> [👉 Clique aqui para ver o site publicado no GitHub Pages](link)
 
-Jogos educativos sobre sustentabilidade
+---
 
-Blog com dicas e curiosidades
+## 🎯 Objetivo
 
-Galeria de artes criadas por usuários
+Transformar o processo de ensino-aprendizagem em uma experiência lúdica, acessível e atrativa, com foco em crianças em fase de alfabetização e escolas que buscam inovação pedagógica.
 
-Conteúdos sobre preservação ambiental e práticas ecológicas
+---
 
-O objetivo é educar enquanto diverte, inspirando ações sustentáveis desde cedo!
+## 🧩 Funcionalidades
 
-🔧 Status
-Em desenvolvimento 🚧
-Funcionalidades e páginas estão sendo implementadas e aprimoradas continuamente.
+- Jogos educativos (quiz, jogo da memória e mais)
+- Blog com curiosidades e conteúdo complementar
+- Galeria com imagens educativas
+- Conteúdo personalizável por tema ou projeto
+
+---
+
+## 👥 Público-alvo
+
+- Professores do ensino fundamental
+- Escolas e instituições de ensino
+- Crianças em fase de alfabetização
+- ONGs e projetos educativos
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- GitHub Pages (para hospedagem)
+
+---
+
+## 📁 Como rodar localmente
+
+```bash
+git clone https://github.com/seu-usuario/ecoaventureiros.git
+```
+
+Instale as dependências (caso tenha):
+
+```bash
+npm install
+```
+
+Inicie o projeto localmente:
+```bash
+npm start
+```
+> Você verá a plataforma rodando em http://localhost:3000/
+
+## 📣 Contato
+
+Criado por Yasmin Gonçalves • Desenvolvedora Front-end
+Para dúvidas, parcerias ou ideias: hello@yasmndev.com.br
+
+🧭 Licença
