@@ -8,7 +8,7 @@ EcoAventureiros é uma plataforma educativa gamificada feita para ajudar profess
 
 ## 🔗 Acesse o projeto online
 
-> [👉 Clique aqui para ver o site publicado no GitHub Pages](link)
+> [👉 Clique aqui para ver o site publicado no GitHub Pages](https://yasmngoncalves.github.io/ecoaventureiros/)
 
 ---
 
