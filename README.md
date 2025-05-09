@@ -68,4 +68,7 @@ npm start
 Criado por Yasmin Gonçalves • Desenvolvedora Front-end
 Para dúvidas, parcerias ou ideias: hello@yasmndev.com.br
 
-🧭 Licença
+## 🧭 Licença
+
+Este projeto está licenciado sob a [GNU Affero GPL v3](https://www.gnu.org/licenses/agpl-3.0.html).  
+Você pode usá-lo, modificá-lo e redistribuí-lo, desde que mantenha esta mesma licença, compartilhe o código caso ofereça o software publicamente via internet, e atribua os créditos à autora original.
