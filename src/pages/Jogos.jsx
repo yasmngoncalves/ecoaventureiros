@@ -19,7 +19,7 @@ export default function Jogos() {
   ];
 
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-12">
+    <section className="w-full max-w-2xl mx-auto px-4 py-12">
       <h2 className="text-2xl sm:text-3xl font-bold text-center text-eco-verde mb-10">
         Divirta-se e Aprenda!
       </h2>
